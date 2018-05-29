@@ -1,0 +1,22 @@
+{
+  "name": "gotham-encoder",
+  "version": "1.0.0",
+  "description": "gotham encoder",
+  "main": "dist/gotham-encoder.js",
+  "umd:main": "dist/gotham-encoder.umd.js",
+  "module": "dist/gotham-encoder.m.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "microbundle -i src/index.js --sourcemap false --external all",
+    "dev": "microbundle watch"
+  },
+  "author": "Mr.Wayne",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.4.4",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "js-base64": "^2.4.5"
+  }
+}
