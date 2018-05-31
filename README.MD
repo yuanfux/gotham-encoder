@@ -1,4 +1,28 @@
-# gotham-encoder
+# gotham-encoder [![npm version](https://badge.fury.io/js/gotham-encoder.svg)](https://badge.fury.io/js/gotham-encoder)
+
+## API
+### encode(str)
+#### 将文本转化为SG专属密文
+
+```javascript
+
+import gotham from 'gotham-encoder'
+
+const encoded = gotham.encode('峰哥牛逼'); // 加密
+
+console.log(encoded); // '饭皇抽了严峻,大球吸了扫地,神仆遇上人气,兆兆调侃烟头,峯䔅天生发发,枫哥哈罗捞趁'
+
+```
+
+### decode(str)
+#### 解码密文
+```javascript
+
+const decoded = gotham.decode('饭皇抽了严峻,大球吸了扫地,神仆遇上人气,兆兆调侃烟头,峯䔅天生发发,枫哥哈罗捞趁'); // 解码
+
+console.log(decoded); // '峰哥牛逼'
+
+```
 
 ## License
 MIT
