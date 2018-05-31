@@ -1,4 +1,4 @@
-# gotham-encoder [![npm version](https://badge.fury.io/js/gotham-encoder.svg)](https://badge.fury.io/js/gotham-encoder)
+# gotham-encoder [![npm version](https://badge.fury.io/js/gotham-encoder.svg)](https://badge.fury.io/js/gotham-encoder) [![Build Status](https://travis-ci.org/yuanfux/gotham-encoder.svg?branch=master)](https://travis-ci.org/yuanfux/gotham-encoder)
 
 ## API
 ### encode(str)
